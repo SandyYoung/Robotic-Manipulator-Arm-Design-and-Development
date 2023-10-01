@@ -1,0 +1,46 @@
+# Build / Cache
+build/
+install/
+log/
+*.swp
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Compiled C++ files
+*.o
+*.so
+*.lib
+*.a
+*.dll
+*.exe
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+*.thumbs.db
+
+# Other ROS2 specifics
+ros2_ws/install/
+ros2_ws/build/
+ros2_ws/log/
+
+# Node logs
+*.active
+*.pid
+*.db
+*.py
+
+# Backup files
+*~
+
+# If using python virtual env
+venv/
+
+# End of .gitignore
