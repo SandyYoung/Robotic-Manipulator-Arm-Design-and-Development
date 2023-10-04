@@ -26,3 +26,39 @@ Execute the script
 ```
 
 Press the `Y` or `<password>` when prompted.
+
+# Running Files
+
+## Build the Project
+
+In the home directory, build the project using
+
+```bash
+colcon build
+```
+
+Source the Environment
+
+- For ZSH
+    ```zsh
+    source install/setup.zsh
+    ```
+
+- For BASH
+    ```bash
+    source install/setup.bash
+    ```
+
+## Launching the URDF Files
+
+Run the xacro as:
+
+```bash
+ros2 launch pkg_manipulator manipulator.launch.py
+```
+
+Launch RVIZ as :
+
+```bash
+rviz2
+```

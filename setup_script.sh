@@ -25,3 +25,4 @@ echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
 sudo apt autoremove -y
 
 sudo apt-get install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control rviz
+sudo apt install ros-humble-xacro ros-humble-joint-state-publisher-gui ros-humble-robot-state-publisher -y
