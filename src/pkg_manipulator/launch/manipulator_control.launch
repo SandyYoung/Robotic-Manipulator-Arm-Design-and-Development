@@ -1,0 +1,4 @@
+<launch>
+    <!-- Load the Parameters -->
+    <rosparam file="$(find pkg_manipulator)/config/manipulator_control.yaml" command="load">
+    </launch>
